@@ -85,7 +85,7 @@ export default function PatientTable({ patients }: Props) {
                 <td className="py-4 px-4 text-[12px] font-medium text-gray-800 text-center">
                   {patient.age}
                 </td>
-                <td className="py-4 px-4 text-center">
+                <td className="py-4 px-4 text-center max-w-[150px] truncate">
                   <IssueBadge issue={patient.medical_issue} />
                 </td>
                 <td className="py-4 px-4 text-[12px] font-medium text-gray-800 max-w-[150px] truncate">
